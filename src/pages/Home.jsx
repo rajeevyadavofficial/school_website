@@ -1,5 +1,6 @@
 // src/pages/Home.jsx
-import HeroSection from '../components/HeroSection';
+// import HeroSection from '../components/HeroSection';
+import PrincipalMessage from '../components/PrincipalMessage';
 import SchoolGallery from '../components/SchoolGallery';
 // import MessageFromPrincipal from '../components/MessageFromPrincipal';
 // import SchoolFeatures from '../components/SchoolFeatures';
@@ -9,8 +10,9 @@ import SchoolGallery from '../components/SchoolGallery';
 const Home = () => {
   return (
     <div>
-      <HeroSection />
+      {/* <HeroSection /> */}
     <SchoolGallery />
+    <PrincipalMessage/>
       {/* <MessageFromPrincipal />
       <SchoolFeatures />
       <Testimonials />
