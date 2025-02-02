@@ -1,5 +1,6 @@
 // src/pages/Home.jsx
 // import HeroSection from '../components/HeroSection';
+import ImagePopup from '../components/ImagePopup';
 import PrincipalMessage from '../components/PrincipalMessage';
 import SchoolGallery from '../components/SchoolGallery';
 // import MessageFromPrincipal from '../components/MessageFromPrincipal';
@@ -8,11 +9,13 @@ import SchoolGallery from '../components/SchoolGallery';
 // import ContactCTA from '../components/ContactCTA';
 
 const Home = () => {
+
+  
   return (
     <div>
       {/* <HeroSection /> */}
-    <SchoolGallery />
-    <PrincipalMessage/>
+      <SchoolGallery />
+      <PrincipalMessage />
       {/* <MessageFromPrincipal />
       <SchoolFeatures />
       <Testimonials />
