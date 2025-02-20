@@ -8,10 +8,10 @@ import Contact from './pages/Contact';
 import ImagePopup from './components/ImagePopup';
 
 import saraswatiMata from './images/saraswatiMata.png';
-
+import Notice from './images/notice.jpg';
 
 function App() {
-  const images =[saraswatiMata]
+  const images = [Notice, saraswatiMata];
   return (
     <div>
       <ImagePopup images={images} />
@@ -30,7 +30,5 @@ function App() {
     </div>
   );
 }
-
-
 
 export default App;
