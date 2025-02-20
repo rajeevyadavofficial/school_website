@@ -64,6 +64,7 @@ const BottomNavbar = () => {
       </ul>
 
       {/* Online Payment Button */}
+      {/* Online Payment Button */}
       <button className="bg-white text-blue-700 px-4 py-2 rounded font-bold hover:bg-gray-200 transition">
         <FaMoneyBillWave className="inline mr-2" />
         अनलाइन भुक्तानी
